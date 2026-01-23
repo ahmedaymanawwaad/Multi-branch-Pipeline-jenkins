@@ -1,0 +1,15 @@
+2026-01-23 13:34:53.201 [info] [main] Log level: Info
+2026-01-23 13:34:53.201 [info] [main] Validating found git in: "/usr/bin/git"
+2026-01-23 13:34:53.201 [info] [main] Using git "2.47.3" from "/usr/bin/git"
+2026-01-23 13:34:53.201 [info] [Model][doInitialScan] Initial repository scan started
+2026-01-23 13:34:53.201 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-01-23 13:34:53.201 [info] > git config --get remote.origin.url [78ms]
+2026-01-23 13:34:53.253 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [16ms]
+2026-01-23 13:34:53.255 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [9ms]
+2026-01-23 13:34:53.258 [info] > git rev-parse --abbrev-ref HEAD [6ms]
+2026-01-23 13:34:53.619 [info] > git remote get-url --push origin [15ms]
+2026-01-23 13:35:01.282 [info] > git config --global user.name [5ms]
+2026-01-23 13:35:01.296 [info] > git config --global user.email [7ms]
+2026-01-23 13:35:01.296 [info] [main] Stored git author name in global state:  <>
+2026-01-23 13:40:45.709 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [10ms]
+2026-01-23 13:40:45.713 [info] > git rev-parse --abbrev-ref HEAD [6ms]

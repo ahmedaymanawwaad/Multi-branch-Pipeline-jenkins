@@ -1,0 +1,13 @@
+2026-01-23 13:34:42.914 [info] [CursorProclistService] Native module loaded successfully
+2026-01-23 13:34:43.083 [info] [storage] Running database optimization (VACUUM) - last run was 20476 days ago
+2026-01-23 13:34:43.197 [info] updateURL https://api2.cursor.sh/updates/api/update/linux-x64/cursor/2.2.44/6ae0bc0b5ee7b665865cfef1cdb7d0da26fdb721ac95f3d7d642a7de11b59349/stable
+2026-01-23 13:34:43.198 [info] update#setState idle
+2026-01-23 13:34:43.306 [info] [storage] Database optimization (VACUUM) completed successfully
+2026-01-23 13:34:53.105 [warning] [BrowserViewMainService] Cannot execute JavaScript: browser view not created for window 1
+2026-01-23 13:34:58.037 [info] [CursorProclistService] Config enabled feature (subsample every 10s)
+2026-01-23 13:35:13.199 [info] update#setState checking for updates
+2026-01-23 13:35:13.393 [info] update#setState available for download
+2026-01-23 13:39:58.123 [info] [CursorProclistService] Sample 0 created: 9 processes, 31 subsamples
+2026-01-23 13:41:52.699 [warning] [BrowserViewMainService] Cannot flush storage data: browser view not created for window 1
+2026-01-23 13:41:52.705 [warning] [BrowserViewMainService] Cannot set visibility: browser view not created for window 1
+2026-01-23 13:41:52.746 [info] Extension host with pid 93202 exited with code: 0, signal: unknown.
