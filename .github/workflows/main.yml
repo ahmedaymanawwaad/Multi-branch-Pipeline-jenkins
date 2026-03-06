@@ -11,4 +11,10 @@ jobs:
     steps:
       - name: print wellcome
         run: echo "hello to my first pipline"
+
+      - name: checkout repo
+        uses: actions/Checkout@6.0.2
+
+      - name: list repos
+        run: ls -la
   
