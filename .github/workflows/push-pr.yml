@@ -4,18 +4,19 @@ on:
       - main
       - "release/**"
     paths:
-      - "/src/**"
-  pull_request: 
+      - "src/**"
+  pull_request:
     branches:
       - main
       - "release/**"
     paths:
-      - "/src/**"
+      - "src/**"
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
      - name: checkout
-       uses: actions/checkout@v6.0.2
+       uses: actions/checkout@v4
      - name: run tests
-       run: npm test 
+       run: npm test
+       working-directory: ./src

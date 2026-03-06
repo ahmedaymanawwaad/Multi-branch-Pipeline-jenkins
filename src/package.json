@@ -4,6 +4,6 @@
     "description": "My app",
     "main": "app.js",
     "scripts": {
-        "test": "node src/test.sh"
+        "test": "bash test.sh"
     }
 }
